@@ -1,0 +1,22 @@
+body {
+    background-color: #F8F9FA;
+}
+p {
+    color: #505050;
+}
+#logo {
+    width: 89.05px;
+    height: 97.5px;
+    padding: 0px;
+    margin: 0px;
+}
+#banner {
+    width: 100%;
+}
+#nav1 {
+    padding: 0px;
+    margin: 0px;
+}
+#espaco {
+    height: 97.25px;
+}
