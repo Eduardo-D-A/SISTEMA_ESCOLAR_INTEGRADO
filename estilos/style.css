@@ -4,6 +4,11 @@ body {
 p {
     color: #505050;
 }
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #logo {
     width: 89.05px;
     height: 97.5px;
@@ -19,4 +24,8 @@ p {
 }
 #espaco {
     height: 97.25px;
+}
+#apresntacao {
+    margin-left: 48px;
+    margin-right: 48px;
 }
