@@ -9,21 +9,24 @@ p {
     flex-direction: column;
     align-items: center;
 }
+.mp-0 {
+    margin: 0px;
+    padding: 0px;
+}
+
 #logo {
     width: 89.05px;
     height: 97.5px;
     padding: 0px;
-    margin: 0px;
+    margin: 8px 0px 12px 12px;
 }
 #banner {
     width: 100%;
+    margin: 115px 0px;
 }
 #nav1 {
     padding: 0px;
     margin: 0px;
-}
-#espaco {
-    height: 97.25px;
 }
 #apresntacao {
     margin-left: 48px;
