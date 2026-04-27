@@ -1,7 +1,11 @@
 body {
+    background-color: #EFEFEF;
+}
+header {
     background-color: #F8F9FA;
 }
-p {
+
+.p-primary {
     color: #505050;
 }
 .flex {
@@ -12,6 +16,10 @@ p {
 .mp-0 {
     margin: 0px;
     padding: 0px;
+}
+.icon {
+    width: 1rem;
+    height: 1rem;
 }
 
 #logo {
@@ -29,6 +37,8 @@ p {
     margin: 0px;
 }
 #apresntacao {
-    margin-left: 48px;
-    margin-right: 48px;
+    margin: 0px 48px;
+}
+#width100 {
+    width: 100%;
 }
