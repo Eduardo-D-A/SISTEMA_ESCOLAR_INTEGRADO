@@ -37,8 +37,15 @@ header {
     margin: 0px;
 }
 #apresntacao {
-    margin: 0px 48px;
+    margin: 0px 78px;
 }
 #width100 {
     width: 100%;
+}
+#saber_mais {
+    border-color: black;
+    border-radius: 2px;
+    border-width: 1.9px;
+    font-weight: bold;
+    color: #e48f20;
 }
