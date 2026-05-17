@@ -21,6 +21,12 @@ header {
     width: 1rem;
     height: 1rem;
 }
+.width100 {
+    width: 100%;
+}
+.bgcream {
+    background-color: #eceae6;
+}
 
 #logo {
     width: 89.05px;
@@ -39,13 +45,17 @@ header {
 #apresntacao {
     margin: 0px 78px;
 }
-#width100 {
-    width: 100%;
-}
 #saber_mais {
     border-color: black;
     border-radius: 2px;
     border-width: 1.9px;
     font-weight: bold;
     color: #e48f20;
+}
+#saber_mais:hover {
+    background-color: #e48f20;
+}
+#pimg {
+    height: auto;
+    object-fit: fill;
 }

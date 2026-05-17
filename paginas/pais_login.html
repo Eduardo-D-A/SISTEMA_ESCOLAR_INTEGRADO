@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEI login</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilos/style.css">
-</head>
-<body>
-    Usar como base a página de login da UVV
-    <a href="../index.html">voltar</a>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SEI login</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="../estilos/style.css">
+    </head>
+
+    <body class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+        <section class="container-sm bgcream p-0">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-4 shadow p-0">
+                    <img src="../images/centro_educacional_primeiro_mundo_cover.jpg"  class="width100 mb-5 rounded-top-4" id="pimg"></img>
+                    <div class="modal-body p-5 pt-0">
+                        <form class="d-flex flex-column">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Login (matrícula)</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                    <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                                    <label for="floatingPassword">Senha</label>
+                            </div>
+                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+                            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                            <hr class="my-4">
+                            <h2 class="fs-5 fw-bold mb-3 align-self-center">Or use a third-party</h2>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="../index.html">Voltar</a>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+    </body>
 </html>
