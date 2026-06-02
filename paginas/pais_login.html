@@ -7,25 +7,44 @@
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="../estilos/style.css">
+        <link rel="stylesheet" href="../estilos/pais.css">
     </head>
 
-    <body class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <body class="d-flex align-items-center justify-content-center min-vh-100">
+        
+        <div id="sucessoPopup">Login efetuado com sucesso! Redirecionando...</div>
+
         <section class="container-sm bgcream p-0">
             <div class="modal-dialog">
                 <div class="modal-content rounded-4 shadow p-0">
-                    <img src="../images/centro_educacional_primeiro_mundo_cover.jpg"  class="width100 mb-5 rounded-top-4" id="pimg"></img>
+                    <img src="../images/centro_educacional_primeiro_mundo_cover.jpg" class="width100 mb-5 rounded-top-4" id="pimg">
                     <div class="modal-body p-5 pt-0">
-                        <form class="d-flex flex-column">
+                        <form class="d-flex flex-column" id="form_login">
+                            
+                            <div id="erroCredenciais" class="text-center mb-3">
+                                <img src="https://cdn-icons-png.flaticon.com/512/1008/1008927.png" alt="Erro" class="icone-erro">
+                                <div class="text-danger fw-bold">Login ou senha incorretos!</div>
+                            </div>
+
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                                <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="Login (matrícula)">
                                 <label for="floatingInput">Login (matrícula)</label>
+                                <div class="text-danger mt-1 texto-erro-pequeno" id="erroLogin">Digite um login.</div>
                             </div>
+                            
                             <div class="form-floating mb-3">
-                                    <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
-                                    <label for="floatingPassword">Senha</label>
+                                <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Senha">
+                                <label for="floatingPassword">Senha</label>
+                                <div class="text-danger mt-1 texto-erro-pequeno" id="erroSenha">Digite uma senha.</div>
                             </div>
-                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
-                            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                            
+                            <section class="d-flex flex-column align-items-center">
+                                <div class="d-flex flex-column w-100">
+                                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">login</button>
+                                    <small class="text-body-secondary text-center">By clicking Sign up, you agree to the terms of use.</small>
+                                </div>
+                            </section>
+                            
                             <hr class="my-4">
                             <h2 class="fs-5 fw-bold mb-3 align-self-center">Or use a third-party</h2>
                         </form>
@@ -33,7 +52,11 @@
                 </div>
             </div>
         </section>
-        <a href="../index.html">Voltar</a>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+        <div class="text-center mt-3">
+            <a href="../index.html">Voltar</a>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="../gavas/login.js"></script>
     </body>
 </html>
