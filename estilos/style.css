@@ -59,3 +59,69 @@ header {
     height: auto;
     object-fit: fill;
 }
+
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #e0e0e0;
+}
+
+body.dark-mode header, body.dark-mode .navbar, body.dark-mode .bg-body-tertiary, body.dark-mode .offcanvas {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0;
+}
+
+body.dark-mode h1, body.dark-mode h2, body.dark-mode .nav-link, body.dark-mode .navbar-brand {
+    color: #ffffff !important;
+}
+
+body.dark-mode .p-primary {
+    color: #bbbbbb;
+}
+
+body.dark-mode #saber_mais {
+    border-color: #e48f20;
+    color: #e48f20;
+}
+
+body.dark-mode #saber_mais:hover {
+    background-color: #e48f20;
+    color: #121212;
+}
+
+body.dark-mode .dropdown-menu {
+    background-color: #2c2c2c;
+    border-color: #444;
+}
+
+body.dark-mode .dropdown-item {
+    color: #e0e0e0;
+}
+
+body.dark-mode .dropdown-item:hover {
+    background-color: #3d3d3d;
+    color: #ffffff;
+}
+
+body.dark-mode .bgcream, body.dark-mode .modal-content {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .form-control {
+    background-color: #2c2c2c;
+    border-color: #444;
+    color: #ffffff;
+}
+
+body.dark-mode .form-control:focus {
+    background-color: #3d3d3d;
+    color: #ffffff;
+}
+
+body.dark-mode label {
+    color: #888;
+}
+
+body.dark-mode .text-body-secondary {
+    color: #888 !important;
+}
